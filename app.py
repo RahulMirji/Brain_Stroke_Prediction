@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 
 # Load dictionary-based model
-stroke_model = joblib.load("model.joblib")
+stroke_model = joblib.load("model.pkl")
 
 # Page config
 st.set_page_config(page_title="Stroke Prediction", page_icon="🧠", layout="centered")
